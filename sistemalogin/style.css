@@ -1,0 +1,51 @@
+html{
+    background-color: rgb(23, 23, 28);
+}
+input{
+    display: block;
+}
+.corpo-form{
+    /* background-color: red; */
+    width: 25em;
+    margin: 10em auto 0;
+}
+input{
+    margin-bottom: 1em;
+    display: block;
+    height: 55px;
+    width: 400px;
+    border-radius: 1em;
+    border: none;
+}
+label{
+    color: white;
+    font-weight: bold;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+}
+
+h1{
+    color: white;
+    margin: 1em;
+}
+
+.msg-sucesso{
+    width: 24em;
+    margin: 10em auto 0;
+    padding:5px;
+    background-color: rgba(50,205,50,.3);
+    border: 1px solid rgb(34, 139,34);
+}
+
+.msg-erro{
+    width: 24em;
+    margin: 10em auto 0;
+    padding:5px;
+    background-color: rgba(250,128,114,.3);
+    border: 1px solid rgb(165, 42,42);
+}
